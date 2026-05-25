@@ -51,6 +51,16 @@ def send_telegram_message(text: str) -> None:
             response.read()
 
 
+def build_message(template_env_name: str, **values) -> str:
+    template = os.environ.get(template_env_name)
+
+    if not template:
+        raise RuntimeError(f"Secret mancante: {template_env_name}")
+
+    template = template.replace("\\n", "\n")
+
+    return template.format(**values)
+
 def main() -> None:
     max_age_minutes = int(os.environ.get("PING_MAX_AGE_MINUTES", "150"))
     max_age_seconds = max_age_minutes * 60
@@ -76,13 +86,13 @@ def main() -> None:
         print(f"OK - {service} attivo. Ultimo ping: {last_ping_utc}. Ritardo: {age_minutes} minuti.")
 
         if previous_status == "down":
-            message = (
-                "✅ BRIDGE RIPRISTINATO\n\n"
-                f"Servizio: {service}\n"
-                f"Host: {host}\n"
-                f"Ultimo ping UTC: {last_ping_utc}\n"
-                f"Ritardo attuale: {age_minutes} minuti\n"
-                f"Soglia configurata: {max_age_minutes} minuti"
+            message = build_message(
+                "OK_MESSAGE_TEMPLATE",
+                service=service,
+                host=host,
+                last_ping_utc=last_ping_utc,
+                age_minutes=age_minutes,
+                max_age_minutes=max_age_minutes,
             )
 
             send_telegram_message(message)
@@ -95,18 +105,13 @@ def main() -> None:
     print(f"ERRORE - {service} non attivo. Ultimo ping: {last_ping_utc}. Ritardo: {age_minutes} minuti.")
 
     if previous_status != "down":
-        message = (
-            "⚠️ BRIDGE NON ATTIVO\n\n"
-            f"Servizio: {service}\n"
-            f"Host: {host}\n"
-            f"Ultimo ping UTC: {last_ping_utc}\n"
-            f"Ritardo: {age_minutes} minuti\n"
-            f"Soglia configurata: {max_age_minutes} minuti\n\n"
-            "Possibili cause:\n"
-            "- bridge.py fermo\n"
-            "- PC server spento o bloccato\n"
-            "- connessione Internet assente\n"
-            "- errore nell'aggiornamento del ping su GitHub"
+        message = build_message(
+            "ERROR_MESSAGE_TEMPLATE",
+            service=service,
+            host=host,
+            last_ping_utc=last_ping_utc,
+            age_minutes=age_minutes,
+            max_age_minutes=max_age_minutes,
         )
 
         send_telegram_message(message)

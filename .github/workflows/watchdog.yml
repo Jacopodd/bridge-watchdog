@@ -21,6 +21,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
           PING_MAX_AGE_MINUTES: ${{ secrets.PING_MAX_AGE_MINUTES }}
+          ERROR_MESSAGE_TEMPLATE: ${{ secrets.ERROR_MESSAGE_TEMPLATE }}
+          OK_MESSAGE_TEMPLATE: ${{ secrets.OK_MESSAGE_TEMPLATE }}
         run: python check_bridge.py
 
       - name: Commit updated state
