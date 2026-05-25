@@ -1,6 +1,6 @@
 {
-  "status": "unknown",
-  "last_alert_sent_unix": 0,
+  "status": "down",
+  "last_alert_sent_unix": 1779694480,
   "last_recovery_sent_unix": 0,
-  "last_checked_unix": 0
+  "last_checked_unix": 1779694480
 }
