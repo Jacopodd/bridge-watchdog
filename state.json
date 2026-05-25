@@ -1,0 +1,6 @@
+{
+  "status": "unknown",
+  "last_alert_sent_unix": 0,
+  "last_recovery_sent_unix": 0,
+  "last_checked_unix": 0
+}

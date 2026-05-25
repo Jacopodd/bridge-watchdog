@@ -1,0 +1,37 @@
+name: Bridge Watchdog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,17,27,37,47,57 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  check-bridge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check bridge heartbeat
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
+          PING_MAX_AGE_MINUTES: ${{ secrets.PING_MAX_AGE_MINUTES }}
+        run: python check_bridge.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet state.json; then
+            echo "Nessuna modifica a state.json"
+          else
+            git add state.json
+            git commit -m "Update watchdog state"
+            git push
+          fi
