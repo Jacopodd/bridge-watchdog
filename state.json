@@ -1,6 +1,6 @@
 {
-  "status": "up",
-  "last_alert_sent_unix": 1779748275,
+  "status": "down",
+  "last_alert_sent_unix": 1780156111,
   "last_recovery_sent_unix": 1779749799,
-  "last_checked_unix": 1780151085
+  "last_checked_unix": 1780156111
 }
