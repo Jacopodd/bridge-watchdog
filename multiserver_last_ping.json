@@ -1,8 +1,8 @@
 {
   "service": "multiserver-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-07-07T12:36:10Z",
-  "last_ping_unix": 1783427770,
+  "last_ping_utc": "2026-07-07T12:41:13Z",
+  "last_ping_unix": 1783428073,
   "status": "ok",
   "ports": {
     "5500": {
@@ -23,7 +23,7 @@
     },
     "5600": {
       "name": "CAMPOSORIANO",
-      "connected_clients": 2
+      "connected_clients": 3
     }
   }
 }
