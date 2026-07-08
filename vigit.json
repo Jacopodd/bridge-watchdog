@@ -1,12 +1,12 @@
 {
   "service": "vigit-client-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-07-08T09:47:25Z",
-  "last_ping_unix": 1783504045,
+  "last_ping_utc": "2026-07-08T09:48:12Z",
+  "last_ping_unix": 1783504092,
   "status": "ok",
   "client": "VIGIT",
   "target": {
-    "host": "88.147.105.123",
+    "host": "vigit.ddns.net",
     "port": 4196
   }
 }
