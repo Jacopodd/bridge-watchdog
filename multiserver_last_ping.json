@@ -1,8 +1,8 @@
 {
   "service": "multiserver-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-07-09T01:56:03Z",
-  "last_ping_unix": 1783562163,
+  "last_ping_utc": "2026-07-09T02:01:05Z",
+  "last_ping_unix": 1783562465,
   "status": "ok",
   "ports": {
     "5500": {
@@ -24,7 +24,7 @@
   "clients": {
     "5500": {
       "name": "ENEA",
-      "connected_clients": 2
+      "connected_clients": 1
     },
     "5600": {
       "name": "CAMPOSORIANO",
