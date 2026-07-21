@@ -1,8 +1,8 @@
 {
   "service": "multiserver-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-07-21T07:07:29Z",
-  "last_ping_unix": 1784617649,
+  "last_ping_utc": "2026-07-21T07:12:31Z",
+  "last_ping_unix": 1784617951,
   "status": "ok",
   "ports": {
     "5500": {
