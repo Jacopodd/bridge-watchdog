@@ -1,8 +1,8 @@
 {
   "service": "enea-client-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-08-16T10:33:52Z",
-  "last_ping_unix": 1786876432,
+  "last_ping_utc": "2026-08-16T10:38:54Z",
+  "last_ping_unix": 1786876734,
   "status": "ok",
   "client": "ENEA",
   "target": {
