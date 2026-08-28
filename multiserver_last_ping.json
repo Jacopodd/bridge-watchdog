@@ -1,23 +1,23 @@
 {
   "service": "multiserver-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-08-28T05:46:10Z",
-  "last_ping_unix": 1787895970,
+  "last_ping_utc": "2026-08-28T05:47:46Z",
+  "last_ping_unix": 1787896066,
   "status": "ok",
   "ports": {
     "5500": {
       "listening": true,
-      "last_listen_at": "2026-08-28 07:46:10",
+      "last_listen_at": "2026-08-28 07:47:46",
       "last_error": null
     },
     "5600": {
       "listening": true,
-      "last_listen_at": "2026-08-28 07:46:10",
+      "last_listen_at": "2026-08-28 07:47:46",
       "last_error": null
     },
     "4196": {
       "listening": true,
-      "last_listen_at": "2026-08-28 07:46:10",
+      "last_listen_at": "2026-08-28 07:47:46",
       "last_error": null
     }
   },
