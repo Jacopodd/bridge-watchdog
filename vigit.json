@@ -1,8 +1,8 @@
 {
   "service": "vigit-client-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-10-03T01:21:05Z",
-  "last_ping_unix": 1790990465,
+  "last_ping_utc": "2026-10-03T01:26:07Z",
+  "last_ping_unix": 1790990767,
   "status": "ok",
   "client": "VIGIT",
   "target": {
