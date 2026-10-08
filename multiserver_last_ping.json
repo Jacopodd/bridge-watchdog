@@ -1,23 +1,23 @@
 {
   "service": "multiserver-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-10-08T10:50:14Z",
-  "last_ping_unix": 1791456614,
+  "last_ping_utc": "2026-10-08T11:12:18Z",
+  "last_ping_unix": 1791457938,
   "status": "ok",
   "ports": {
     "5500": {
       "listening": true,
-      "last_listen_at": "2026-10-08 12:04:55",
+      "last_listen_at": "2026-10-08 13:07:18",
       "last_error": null
     },
     "5600": {
       "listening": true,
-      "last_listen_at": "2026-10-08 12:04:55",
+      "last_listen_at": "2026-10-08 13:07:18",
       "last_error": null
     },
     "4196": {
       "listening": true,
-      "last_listen_at": "2026-10-08 12:04:55",
+      "last_listen_at": "2026-10-08 13:07:18",
       "last_error": null
     }
   },
@@ -28,7 +28,7 @@
     },
     "5600": {
       "name": "CAMPOSORIANO",
-      "connected_clients": 3
+      "connected_clients": 2
     },
     "4196": {
       "name": "VIGIT",
