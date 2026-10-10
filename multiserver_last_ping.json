@@ -1,38 +1,38 @@
 {
   "service": "multiserver-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-10-10T22:51:10Z",
-  "last_ping_unix": 1791672670,
+  "last_ping_utc": "2026-10-10T23:02:52Z",
+  "last_ping_unix": 1791673372,
   "status": "ok",
   "ports": {
     "5500": {
       "listening": true,
-      "last_listen_at": "2026-10-09 09:59:15",
+      "last_listen_at": "2026-10-11 01:02:52",
       "last_error": null
     },
     "5600": {
       "listening": true,
-      "last_listen_at": "2026-10-09 09:59:15",
+      "last_listen_at": "2026-10-11 01:02:52",
       "last_error": null
     },
     "4196": {
       "listening": true,
-      "last_listen_at": "2026-10-09 09:59:15",
+      "last_listen_at": "2026-10-11 01:02:52",
       "last_error": null
     }
   },
   "clients": {
     "5500": {
       "name": "ENEA",
-      "connected_clients": 1
+      "connected_clients": 0
     },
     "5600": {
       "name": "CAMPOSORIANO",
-      "connected_clients": 1
+      "connected_clients": 0
     },
     "4196": {
       "name": "VIGIT",
-      "connected_clients": 1
+      "connected_clients": 0
     }
   }
 }
