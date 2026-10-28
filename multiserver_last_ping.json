@@ -1,8 +1,8 @@
 {
   "service": "multiserver-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-10-28T21:04:51Z",
-  "last_ping_unix": 1793221491,
+  "last_ping_utc": "2026-10-28T21:09:54Z",
+  "last_ping_unix": 1793221794,
   "status": "ok",
   "ports": {
     "5500": {
@@ -28,11 +28,11 @@
     },
     "5600": {
       "name": "CAMPOSORIANO",
-      "connected_clients": 1
+      "connected_clients": 2
     },
     "4196": {
       "name": "VIGIT",
-      "connected_clients": 0
+      "connected_clients": 1
     }
   }
 }
