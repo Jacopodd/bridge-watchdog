@@ -1,8 +1,8 @@
 {
   "service": "camposoriano-client-01",
   "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-11-01T05:14:54Z",
-  "last_ping_unix": 1793510094,
+  "last_ping_utc": "2026-11-01T05:19:57Z",
+  "last_ping_unix": 1793510397,
   "status": "ok",
   "client": "CAMPOSORIANO",
   "target": {
