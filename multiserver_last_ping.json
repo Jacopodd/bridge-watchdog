@@ -1,23 +1,23 @@
 {
   "service": "multiserver-01",
-  "host": "DESKTOP-HMF8PP3",
-  "last_ping_utc": "2026-11-03T21:01:23Z",
-  "last_ping_unix": 1793739683,
+  "host": "bridge-prod-fra1",
+  "last_ping_utc": "2026-11-03T21:04:47Z",
+  "last_ping_unix": 1793739887,
   "status": "ok",
   "ports": {
     "5500": {
       "listening": true,
-      "last_listen_at": "2026-10-11 01:02:52",
+      "last_listen_at": "2026-11-03 19:19:10",
       "last_error": null
     },
     "5600": {
       "listening": true,
-      "last_listen_at": "2026-10-11 01:02:52",
+      "last_listen_at": "2026-11-03 19:19:10",
       "last_error": null
     },
     "4196": {
       "listening": true,
-      "last_listen_at": "2026-10-11 01:02:52",
+      "last_listen_at": "2026-11-03 19:19:10",
       "last_error": null
     }
   },
