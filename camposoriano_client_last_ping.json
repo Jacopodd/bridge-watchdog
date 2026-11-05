@@ -1,12 +1,12 @@
 {
   "service": "camposoriano-client-01",
-  "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-05T15:08:17Z",
-  "last_ping_unix": 1793891297,
+  "host": "DESKTOP-HMF8PP3",
+  "last_ping_utc": "2026-11-05T15:09:10Z",
+  "last_ping_unix": 1793891350,
   "status": "ok",
   "client": "CAMPOSORIANO",
   "target": {
-    "host": "127.0.0.1",
+    "host": "88.147.105.123",
     "port": 5600
   }
 }
