@@ -1,6 +1,6 @@
 {
-  "service": "service-01",
-  "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-06T04:42:26Z",
-  "last_ping_unix": 1793940146
+  "service": "bridge",
+  "host": "server",
+  "last_ping_utc": "2026-11-06T04:46:45Z",
+  "last_ping_unix": 1793940405
 }
