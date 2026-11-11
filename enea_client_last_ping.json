@@ -1,12 +1,12 @@
 {
   "service": "enea-client-01",
-  "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-11T13:33:03Z",
-  "last_ping_unix": 1794403983,
+  "host": "DESKTOP-HMF8PP3",
+  "last_ping_utc": "2026-11-11T13:34:22Z",
+  "last_ping_unix": 1794404062,
   "status": "ok",
   "client": "ENEA",
   "target": {
-    "host": "127.0.0.1",
+    "host": "88.147.105.123",
     "port": 5500
   }
 }
