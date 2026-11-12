@@ -1,8 +1,8 @@
 {
   "service": "multiserver-01",
   "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-12T21:06:17Z",
-  "last_ping_unix": 1794517577,
+  "last_ping_utc": "2026-11-12T21:11:19Z",
+  "last_ping_unix": 1794517879,
   "status": "ok",
   "ports": {
     "5500": {
@@ -32,7 +32,7 @@
     },
     "4196": {
       "name": "VIGIT",
-      "connected_clients": 0
+      "connected_clients": 1
     }
   }
 }
