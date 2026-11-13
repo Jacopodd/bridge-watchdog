@@ -1,8 +1,8 @@
 {
   "service": "vigit-client-01",
   "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-13T17:50:42Z",
-  "last_ping_unix": 1794592242,
+  "last_ping_utc": "2026-11-13T17:55:44Z",
+  "last_ping_unix": 1794592544,
   "status": "ok",
   "client": "VIGIT",
   "target": {
