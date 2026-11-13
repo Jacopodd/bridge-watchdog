@@ -1,8 +1,8 @@
 {
   "service": "multiserver-01",
   "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-13T22:54:32Z",
-  "last_ping_unix": 1794610472,
+  "last_ping_utc": "2026-11-13T22:59:34Z",
+  "last_ping_unix": 1794610774,
   "status": "ok",
   "ports": {
     "5500": {
@@ -24,7 +24,7 @@
   "clients": {
     "5500": {
       "name": "ENEA",
-      "connected_clients": 3
+      "connected_clients": 2
     },
     "5600": {
       "name": "CAMPOSORIANO",
