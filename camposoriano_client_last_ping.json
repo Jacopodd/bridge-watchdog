@@ -1,8 +1,8 @@
 {
   "service": "camposoriano-client-01",
   "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-13T17:55:57Z",
-  "last_ping_unix": 1794592557,
+  "last_ping_utc": "2026-11-13T18:00:59Z",
+  "last_ping_unix": 1794592859,
   "status": "ok",
   "client": "CAMPOSORIANO",
   "target": {
