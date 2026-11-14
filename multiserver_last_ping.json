@@ -1,8 +1,8 @@
 {
   "service": "multiserver-01",
   "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-14T06:59:55Z",
-  "last_ping_unix": 1794639595,
+  "last_ping_utc": "2026-11-14T07:04:57Z",
+  "last_ping_unix": 1794639897,
   "status": "ok",
   "ports": {
     "5500": {
