@@ -1,8 +1,8 @@
 {
   "service": "multiserver-01",
   "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-18T22:39:41Z",
-  "last_ping_unix": 1795041581,
+  "last_ping_utc": "2026-11-18T22:44:43Z",
+  "last_ping_unix": 1795041883,
   "status": "ok",
   "ports": {
     "5500": {
@@ -28,7 +28,7 @@
     },
     "5600": {
       "name": "CAMPOSORIANO",
-      "connected_clients": 1
+      "connected_clients": 0
     },
     "4196": {
       "name": "VIGIT",
