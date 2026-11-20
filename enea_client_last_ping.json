@@ -1,8 +1,8 @@
 {
   "service": "enea-client-01",
   "host": "bridge-prod-fra1",
-  "last_ping_utc": "2026-11-20T04:09:17Z",
-  "last_ping_unix": 1795147757,
+  "last_ping_utc": "2026-11-20T04:14:18Z",
+  "last_ping_unix": 1795148058,
   "status": "ok",
   "client": "ENEA",
   "target": {
